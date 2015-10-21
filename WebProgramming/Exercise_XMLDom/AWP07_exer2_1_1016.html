@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<script>
+	function loadXML(filename){
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", filename, false);
+		xmlhttp.send();
+
+		return xmlhttp.responseXML;
+	}
+
+	function printTable(bookstore){
+		book_nodes = bookstore.childNodes;
+
+		for(i=0; i<book_nodes.length; i++){
+			html_txt = "<table border='1'>";
+			if(book_nodes[i].nodeType==1){
+				for(j=0; j<book_nodes[i].childNodes.length; j++){
+					if(book_nodes[i].childNodes[j].nodeType==1){
+						html_txt += "<tr><th>"+book_nodes[i].childNodes[j].nodeName+"</th>";
+						html_txt += "<td>"+book_nodes[i].childNodes[j].childNodes[0].nodeValue + "</td><tr>";
+					}
+				}
+			}
+			html_txt += "</table>";
+			document.write(html_txt + "<br>");
+		}
+	}
+	</script>
+</head>
+
+
+<body>
+	<script>
+
+	xmlDoc = loadXML("books.xml");
+	root_bookstore = xmlDoc.documentElement;
+
+	printTable(root_bookstore);
+	</script>
+</body>
+
+</html>

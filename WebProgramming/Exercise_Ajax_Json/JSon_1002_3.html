@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="EUC-KR">
+	<title>JSON Example</title>
+	<script>
+	function showValues(){
+		var select = document.getElementById("cd").value;
+
+		var xmlhttp = new XMLHttpRequest();
+		var url = "cd_catalog.json";
+		xmlhttp.onreadystatechange = function(){
+			if(xmlhttp.readyState == 4 && xmlhttp.status ==200){
+				var arr = JSON.parse(xmlhttp.responseText);
+
+				if(select == 'title'){
+					var html = "<table border='1'><th>TITLE</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].TITLE + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				else if(select == 'artist'){
+					var html = "<table border='1'><th>ARTIST</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].ARTIST + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				else if(select == 'country'){
+					var html = "<table border='1'><th>COUNTRY</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].COUNTRY + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				else if(select == 'company'){
+					var html = "<table border='1'><th>COMPANY</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].COMPANY + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				else if(select == 'price'){
+					var html = "<table border='1'><th>PRICE</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].PRICE + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				else if(select == 'year'){
+					var html = "<table border='1'><th>YEAR</th>";
+					for(var i=0; i<arr.length; i++){
+						html += '<tr><td>' + arr[i].YEAR + '</td></tr>';
+					}
+					html += '</table>';
+				}
+				document.getElementById("div1").innerHTML = html;
+
+			}
+		}
+		xmlhttp.open("GET", url, true);
+		xmlhttp.send();
+		
+	}
+
+	</script>
+</head>
+
+<body>
+	<h2>Select a Field to Show : </h2>
+
+	<select id="cd">
+		<option value="title">TITLE</option>
+		<option value="artist">ARTIST</option>
+		<option value="country">COUNTRY</option>
+		<option value="company">COMPANY</option>
+		<option value="price">PRICE</option>
+		<option value="year">YEAR</option>
+	</select>
+	<button type="button" onClick="showValues()">Show Values</button>
+
+	<div id="div1"></div>
+</body>
+
+</html>

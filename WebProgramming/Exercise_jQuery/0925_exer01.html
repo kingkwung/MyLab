@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.0.js"></script>
+<script>
+
+$(document).ready(function(){
+
+	$("ol li").mouseenter(function(){
+	 $("#title").text("Your choice : " + $(this).text())
+	})
+
+	$("ol li").mouseleave(function(){
+	 $("#title").text("Your choice : ")
+	})
+
+});
+
+</script>
+</head>
+
+
+
+<body>
+<h2 id="title">Your choice : </h2>
+<ol type="a">
+<li id="first">Chrome</li>
+<li id="second">Internet Exploror</li>
+<li id="third">Safari</li>
+</ol>
+
+</body>
+</html>

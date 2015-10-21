@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script>
+	function firstChild(node){
+		for(i=0; i<node.childNodes.length; i++){
+			if(node.childNodes[i].nodeType == 1){
+				return node.childNodes[i];
+			}
+			if(node.childNodes[i].nodeType == 3){
+				txt_val = node.childNodes[i].nodeValue.trim();
+				if(txt_val.length>0){
+					return node.childNodes[i];
+				}
+			}
+		}
+	}
+
+	function lastChild(node){
+		for(i=node.childNodes.length-1; i>=0; i--){
+			if(node.childNodes[i].nodeType==1){
+				return node.childNodes[i];
+			}
+			if(node.childNodes[i].nodeType == 3){
+				txt_val = node.childNodes[i].nodeValue.trim();
+				if(txt_val.length>0){
+					return node.childNodes[i];
+				}
+			}
+		}
+	}
+
+	function nextSibling(node){
+
+		flag = -1;
+		node_type = -1;
+		if(node.nodeType == 1)
+			node_type = 1;
+		else if(node.nodeType == 3)
+			node_type = 3;
+
+		parent_node = node.parentNode;
+		for(i = 0 ;i < parent_node.childNodes.length; i++){
+			if(flag == 1){
+				if(parent_node.childNodes[i].nodeType == 3){
+					txt_val = parent_node.childNodes[i].nodeValue.trim();
+					if(txt_val.length == 0)
+						continue;
+				}				
+				return parent_node.childNodes[i];
+			}
+			if(parent_node.childNodes[i].nodeType == 1 && node_type == 1){
+				if(parent_node.childNodes[i] == node){
+					flag = 1;
+				}
+			}
+			if(parent_node.childNodes[i].nodeType == 3 && node_type == 3){
+				if(parent_node.childNodes[i].nodeValue == node.nodeValue)
+					flag = 1;
+			}
+		}
+		return null;
+		// flag = 0;
+		// parent_node = node.parentNode;
+
+		// for(i=0; i<parent_node.childNodes.length; i++){
+		// 	if(parent_node.childNodes[i].nodeType == 1){
+		// 		if(flag == 1){
+		// 			return parent_node.childNodes[i];
+		// 		}
+		// 		if(parent_node.childNodes[i] == node){
+		// 			flag = 1;
+		// 		}
+		// 	}
+		// }
+		// return null;
+	}
+
+	function prevSibling(node){
+		flag = -1;
+		node_type = -1;
+		if(node.nodeType == 1)
+			node_type = 1;
+		else if(node.nodeType == 3)
+			node_type = 3;
+
+		parent_node = node.parentNode;
+		for(i = parent_node.childNodes.length - 1; i>= 0; i--){
+			if(flag == 1){
+				if(parent_node.childNodes[i].nodeType == 3){
+					txt_val = parent_node.childNodes[i].nodeValue.trim();
+					if(txt_val.length == 0)
+						continue;
+				}
+				return parent_node.childNodes[i];
+			}
+			if(parent_node.childNodes[i].nodeType == 1 && node_type == 1){
+				if(parent_node.childNodes[i] == node){
+					flag = 1;
+				}
+			}
+			if(parent_node.childNodes[i].nodeType == 3 && node_type == 3){
+				if(parent_node.childNodes[i].nodeValue == node.nodeValue)
+					flag = 1;
+			}
+		}
+		return null;
+		// flag = 0;
+		// parent_node = node.parentNode;
+
+		// for(i=parent_node.childNodes.length-1; i>=0; i--){
+		// 	if(parent_node.childNodes[i].nodeType == 1){
+		// 		if(flag == 1){
+		// 			return parent_node.childNodes[i];
+		// 		}
+		// 		if(parent_node.childNodes[i] == node){
+		// 			flag = 1;
+		// 		}
+		// 	}
+		// }
+		// return null;
+	}
+
+	</script>
+
+</head>
+<body>
+<script>
+	function loadXML(filename){
+		var xmlhttp = new XMLHttpRequest();
+
+		xmlhttp.open("GET",filename, false);
+		xmlhttp.send();
+
+		return xmlhttp.responseXML;
+	}
+
+	xmlDoc = loadXML("books.xml");
+	root_bookstore = xmlDoc.documentElement;
+	
+
+
+
+	//expact first book title : Everyday Italian
+	book_first = firstChild(root_bookstore);
+	document.write(firstChild(book_first).childNodes[0].nodeValue + "<br>");
+	//expact first book title : Everyday Italian (USING trim() method)
+	title_first = firstChild(book_first);
+	document.write(firstChild(title_first).nodeValue + "<br>");
+
+
+	//expact last book price : 39.95
+	book_last = lastChild(root_bookstore);
+	document.write(lastChild(book_last).childNodes[0].nodeValue + "<br>");
+	//expact last book price : 39.95 (USING tring() method)
+	price_last = lastChild(book_last);
+	document.write(lastChild(price_last).nodeValue + "<br>");
+
+
+	//expact next sibling of first book(=second book) title : Harry Potter
+	book_second = nextSibling(book_first);
+	document.write(firstChild(book_second).childNodes[0].nodeValue + "<br>");
+	//using trim() method
+	author_first = nextSibling(title_first);
+	document.write(author_first.childNodes[0].nodeValue + "<br>");
+
+
+	//expact previous sibling of second book(=first book) title : Everyday Italian
+	book_refirst = prevSibling(book_second);
+	document.write(firstChild(book_refirst).childNodes[0].nodeValue + "<br>");
+	//using trim() method
+	year_last = prevSibling(price_last);
+	document.write(year_last.childNodes[0].nodeValue + "<br>");
+
+
+	expact_null01 = nextSibling(book_last);
+	document.write(expact_null01 + "<br>");
+
+	expact_null02 = prevSibling(book_first);
+	document.write(expact_null02 + "<br>");
+
+</script>
+</body>
+</html>
+

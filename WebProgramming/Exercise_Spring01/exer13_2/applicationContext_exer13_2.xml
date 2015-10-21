@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="car1" class="mySpring_exer13_2.CarFactory"
+		factory-method="madeCar">
+		<constructor-arg value="Sonata" />
+		<constructor-arg value="2007" />
+		<constructor-arg value="Hyundai" />
+	</bean>
+
+	<bean id="car2" class="mySpring_exer13_2.CarFactory"
+		factory-method="madeCar">
+		<constructor-arg value="Santafe" />
+		<constructor-arg value="2008" />
+		<constructor-arg value="Hyundai" />
+	</bean>
+
+	<bean id="car3" class="mySpring_exer13_2.CarFactory"
+		factory-method="madeCar">
+		<constructor-arg value="Accent" />
+		<constructor-arg value="2009" />
+		<constructor-arg value="Hyundai" />
+	</bean>
+
+	<bean id="car4" class="mySpring_exer13_2.CarFactory"
+		factory-method="madeCar">
+		<constructor-arg value="Korando" />
+		<constructor-arg value="2010" />
+	</bean>
+
+
+</beans>

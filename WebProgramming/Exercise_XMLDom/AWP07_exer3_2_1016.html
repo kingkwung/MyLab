@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<script>
+	function loadXML(filename){
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET",filename, false);
+		xmlhttp.send();
+
+		return xmlhttp.responseXML;
+	}
+
+	function discount(catalog){
+		cd_nodes = catalog.childNodes;
+
+		 for(i=0; i<cd_nodes.length; i++){
+			flag=0;
+			html_txt = "<table border='1'>";
+			if(cd_nodes[i].nodeType == 1){
+				for(j=0; j<cd_nodes[i].childNodes.length; j++){
+					if(cd_nodes[i].childNodes[j].nodeType == 1){
+						if(cd_nodes[i].childNodes[j].nodeName=="YEAR" && cd_nodes[i].childNodes[j].childNodes[0].nodeValue>=1995){
+							flag=1;
+							break;
+						}
+
+						if(cd_nodes[i].childNodes[j].nodeName=="PRICE"){
+							cd_nodes[i].childNodes[j].childNodes[0].nodeValue = cd_nodes[i].childNodes[j].childNodes[0].nodeValue*(9/10);
+						}
+						
+
+						html_txt += "<tr><th>" + cd_nodes[i].childNodes[j].nodeName + "</th>";
+						html_txt += "<td>" + cd_nodes[i].childNodes[j].childNodes[0].nodeValue + "</td></tr>";
+					}
+				}
+			}
+			if(flag==1)continue;
+			html_txt += "</table>";
+			document.write(html_txt + "<br>");
+		}
+	}
+	</script>
+</head>
+
+<body>
+	<script>
+	xmlDoc = loadXML("cd_catalog.xml");
+	root_catalog = xmlDoc.documentElement;
+
+	discount(root_catalog);
+	</script>
+</body>
+
+</html>

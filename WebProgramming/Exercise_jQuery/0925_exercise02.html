@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery-1.11.0.js"></script>
+<script>
+
+$(document).ready(function(){
+
+$("#change1").click(function(){
+
+	$("#first").css("color" , $("#fav_color").val())
+})
+
+$("#change2").click(function(){
+
+	$("#second").css("color" , $("#fav_color").val())
+})
+
+$("#change3").click(function(){
+
+	$("#third").css("color" , $("#fav_color").val())
+})
+
+
+
+});
+
+</script>
+</head>
+
+
+
+<body>
+<h2 id="first">Header 1</h2>
+<h2 id="second">Header 2</h2>
+<h2 id="third">Header 3</h2>
+
+
+
+<p>
+	Choose the header color : 
+	<input type="color" id="fav_color">
+</p>
+
+
+<button id="change1">Change 1</button>
+<button id="change2">Change 2</button>
+<button id="change3">Change 3</button>
+
+
+</ol>
+
+</body>
+</html>

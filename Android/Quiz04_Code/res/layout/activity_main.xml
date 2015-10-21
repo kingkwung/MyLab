@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/studentnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="200932155"/>
+    <Button
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Youngnam woo"/>
+    <Button
+        android:id="@+id/LaunchActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Launch Activity"/>
+    
+    <TextView
+        android:id="@+id/tel_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel number : "/>
+    <TextView 
+        android:id="@+id/service_provide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service provide : "/>
+
+</LinearLayout>

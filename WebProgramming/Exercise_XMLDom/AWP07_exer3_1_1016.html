@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<script>
+	function loadXML(filename){
+		xmlhttp = new XMLHttpRequest();
+		xmlhttp.open("GET", filename, false);
+		xmlhttp.send();
+
+		return xmlhttp.responseXML;
+	}
+
+	function add_book(xmlDoc, root_bookstore, title, category, author, year, price){
+		bookEle = xmlDoc.createElement("book");
+
+		bookEle.setAttribute("category", category);
+
+		titleEle = xmlDoc.createElement("title");
+		titleTxt = xmlDoc.createTextNode(title);
+		titleEle.appendChild(titleTxt);
+
+		authorEle = xmlDoc.createElement("author");
+		authorTxt = xmlDoc.createTextNode(author);
+		authorEle.appendChild(authorTxt);
+
+		yearEle = xmlDoc.createElement("year");
+		yearTxt = xmlDoc.createTextNode(year);
+		yearEle.appendChild(yearTxt);
+
+		priceEle = xmlDoc.createElement("price");
+		priceTxt = xmlDoc.createTextNode(price);
+		priceEle.appendChild(priceTxt);
+
+		bookEle.appendChild(titleEle);
+		bookEle.appendChild(authorEle);
+		bookEle.appendChild(yearEle);
+		bookEle.appendChild(priceEle);
+
+		root_bookstore.appendChild(bookEle);
+	}
+
+	</script>
+</head>
+
+<body>
+	<script>
+
+	xmlDoc = loadXML("books.xml");
+	root_bookstore = xmlDoc.documentElement;
+
+	//add the books 
+	add_book(xmlDoc, root_bookstore, "IRON MAN", "hero", "Robert", "1989", "20.0");
+	add_book(xmlDoc, root_bookstore, "HULK", "hero", "doctor", "1988", "25.0");
+	add_book(xmlDoc, root_bookstore, "Thor", "hero", "Alan", "1990", "30.0");
+
+	//print added books
+	all_books = xmlDoc.getElementsByTagName("book");
+
+	for(i=all_books.length-3; i<all_books.length; i++){
+		html_txt = "<table border='1'>";
+		for(j=0; j<all_books[i].childNodes.length; j++){
+			if(all_books[i].childNodes[j].nodeType==1){
+				html_txt += "<tr><th>" + all_books[i].childNodes[j].nodeName
+				+ "</th>";
+				html_txt += "<td>" + all_books[i].childNodes[j].childNodes[0].nodeValue + "</td></tr>";
+			}
+		}
+		html_txt += "</table>";
+		document.write(html_txt+"<br>");
+	}
+	</script>
+</body>
+
+</html>

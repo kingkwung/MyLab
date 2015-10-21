@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="carList1" class="mySpring_exer13_3.CarFactory13_3"
+		factory-method="madeCar">
+		<constructor-arg>
+			<map>
+				<entry key="Korando" value="2010" />
+				<entry key="sm5" value="2009" />
+				<entry key="Equus" value="2012" />
+			</map>
+		</constructor-arg>
+	</bean>
+
+	<bean id="employee1" class="mySpring_exer13_3.Employee13_3">
+	    <property name="id" value="1"/>
+	    <property name="name" value="AAA"/>
+	    <property name="carList" ref="carList1"/>
+	</bean>
+	
+	<bean id="carList2" class="mySpring_exer13_3.CarFactory13_3"
+		factory-method="madeCar">
+		<constructor-arg>
+			<map>
+				<entry key="Chairman" value="2010" />
+				<entry key="sm7" value="2009" />
+				<entry key="Starex" value="2012" />
+			</map>
+		</constructor-arg>
+	</bean>
+	
+	<bean id="employee2" class="mySpring_exer13_3.Employee13_3">
+	    <property name="id" value="2"/>
+	    <property name="name" value="BBB"/>
+	    <property name="carList" ref="carList2"/>
+	</bean>
+
+</beans>

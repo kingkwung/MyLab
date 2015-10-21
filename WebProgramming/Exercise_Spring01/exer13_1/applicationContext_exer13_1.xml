@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee1" class="mySpring_exer13_1.employee">
+		<property name="id" value="1" />
+		<property name="name" value="AAA" />
+	</bean>
+
+	<bean id="employee2" class="mySpring_exer13_1.employee">
+		<property name="id" value="2" />
+		<property name="name" value="BBB" />
+	</bean>
+
+	<bean id="employee3" class="mySpring_exer13_1.employee">
+		<constructor-arg value="3" />
+		<constructor-arg value="CCC" />
+
+	</bean>
+
+	<bean id="employee4" class="mySpring_exer13_1.employee">
+		<constructor-arg value="4" />
+		<constructor-arg value="DDD" />
+	</bean>
+
+</beans>
+
+

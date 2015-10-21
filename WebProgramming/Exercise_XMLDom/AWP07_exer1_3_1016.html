@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<script>
+
+	function childNode(node){
+		resultnode_arr = new Array();
+		current_childnode = firstChild(node);
+		if(current_childnode==null){
+			return null;
+		}
+		resultnode_arr.push(current_childnode);
+
+
+		while(1){
+			current_childnode = nextSibling(current_childnode);
+			if(current_childnode == null){
+				break;
+			}
+			resultnode_arr.push(current_childnode);
+
+		}
+
+		return resultnode_arr;
+	}
+
+
+	function firstChild(node){
+		for(i=0; i<node.childNodes.length; i++){
+			if(node.childNodes[i].nodeType == 1){
+				return node.childNodes[i];
+			}
+			if(node.childNodes[i].nodeType == 3){
+				txt_val = node.childNodes[i].nodeValue.trim();
+				if(txt_val.length>0){
+					return node.childNodes[i];
+				}
+			}
+		}
+	}
+
+	function nextSibling(node){
+
+		flag = -1;
+		node_type = -1;
+		if(node.nodeType == 1)
+			node_type = 1;
+		else if(node.nodeType == 3)
+			node_type = 3;
+
+		parent_node = node.parentNode;
+		for(i = 0 ;i < parent_node.childNodes.length; i++){
+			if(flag == 1){
+				if(parent_node.childNodes[i].nodeType == 3){
+					txt_val = parent_node.childNodes[i].nodeValue.trim();
+					if(txt_val.length == 0)
+						continue;
+				}				
+				return parent_node.childNodes[i];
+			}
+			if(parent_node.childNodes[i].nodeType == 1 && node_type == 1){
+				if(parent_node.childNodes[i] == node){
+					flag = 1;
+				}
+			}
+			if(parent_node.childNodes[i].nodeType == 3 && node_type == 3){
+				if(parent_node.childNodes[i].nodeValue == node.nodeValue)
+					flag = 1;
+			}
+		}
+		return null;
+
+	}
+
+
+
+
+	</script>
+</head>
+
+
+<body>
+	<script>
+	function loadXML(filename){
+		xmlhttp = new XMLHttpRequest();
+
+		xmlhttp.open("GET",filename, false);
+		xmlhttp.send();
+
+		return xmlhttp.responseXML;
+	}
+
+	xmlDoc = loadXML("books.xml");
+	root_bookstore = xmlDoc.documentElement;
+	
+	childnode_arr = new Array();
+
+	//childnode_arr contains all "book" elements
+	//childnode_arr[0] equals first book
+	childnode_arr = childNode(root_bookstore);
+	document.write(firstChild(childnode_arr[0]).childNodes[0].nodeValue + "<br>");
+
+
+	//book_last is a last book
+	book_last = childnode_arr[3];
+	properties_last = new Array();
+	properties_last = childNode(book_last);
+
+	document.write(firstChild(properties_last[3]).nodeValue);
+	</script>
+</body>
+
+
+
+</html>
+

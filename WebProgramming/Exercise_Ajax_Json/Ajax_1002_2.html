@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR"> 
+<title>AJAX Example</title> 
+<script>
+function showMenus() {
+	var name = document.getElementById("input_field").value;
+    var xmlhttp = new XMLHttpRequest(); 
+    xmlhttp.onreadystatechange = function() {
+	if (xmlhttp.readyState==4 && xmlhttp.status==200) {
+
+			var info = document.getElementById("div1");
+			var table = document.getElementById("div2");
+			
+			var xmlDoc = xmlhttp.responseXML;
+
+			var cd = xmlDoc.getElementsByTagName("CD");
+			var title = xmlDoc.getElementsByTagName("TITLE");
+			var artist = xmlDoc.getElementsByTagName("ARTIST");
+			var country = xmlDoc.getElementsByTagName("COUNTRY");
+			var company = xmlDoc.getElementsByTagName("COMPANY");
+			var price = xmlDoc.getElementsByTagName("PRICE");
+			var year = xmlDoc.getElementsByTagName("YEAR");
+
+			for(i=0; i<cd.length; i++){
+				if(name == artist[i].childNodes[0].nodeValue){
+					document.getElementById("title").innerHTML = title[i].childNodes[0].nodeValue;
+					document.getElementById("artist").innerHTML = artist[i].childNodes[0].nodeValue;
+					document.getElementById("country").innerHTML = country[i].childNodes[0].nodeValue;
+					document.getElementById("company").innerHTML = company[i].childNodes[0].nodeValue;
+					document.getElementById("price").innerHTML = price[i].childNodes[0].nodeValue;
+					document.getElementById("year").innerHTML = year[i].childNodes[0].nodeValue;
+					info.style.display = "none";
+					table.style.display = "block";
+					break;
+				}
+				else{
+					info.style.display = "block";
+					table.style.display = "none";
+				}
+			}
+	      }
+	}
+	xmlhttp.open("GET","cd_catalog.xml",true);
+	xmlhttp.send();
+	}
+</script>
+
+</head>
+<body>
+	<h2>Enter Artist name : </h2>
+	<input type="text" id="input_field"></input>
+	<button type="button" onClick="showMenus()">Search</button>
+	<br><br>
+	<p>CD Information : </p>
+	<div id="div1" style="display:none">none</div>
+	<div id="div2" style="display:none">
+		<table border="1">
+			<tr>
+				<th>TITLE</th>
+				<td id="title"></td>
+			</tr>
+
+			<tr>
+				<th>ARTIST</th>
+				<td id="artist"></td>
+			</tr>
+
+			<tr>
+				<th>COUNTRY</th>
+				<td id="country"></td>
+			</tr>
+
+			<tr>
+				<th>COMPANY</th>
+				<td id="company"></td>
+			</tr>
+
+			<tr>
+				<th>PRICE</th>
+				<td id="price"></td>
+			</tr>
+
+			<tr>
+				<th>YEAR</th>
+				<td id="year"></td>
+			</tr>
+		</table>
+
+
+	</div>
+</body>
+</html>

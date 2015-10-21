@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BDBDBD"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="QTip"
+        android:textColor="#ff47C83E"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/priceField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="right"
+        android:hint="Total Amount"
+        android:textSize="35dp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/RadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/fiftyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15%" />
+
+            <RadioButton
+                android:id="@+id/twentyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20%" />
+
+            <RadioButton
+                android:id="@+id/otherButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="other : " />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/otherField"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="30dp"
+            android:background="#EAEAEA"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/resultButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="calculate" />
+
+</LinearLayout>
