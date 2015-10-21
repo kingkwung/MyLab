@@ -1,0 +1,66 @@
+T0917_ALGORITHMS
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BB355D00000000000000AA
+t1371223389
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c0000000050FA3ED10000000000004523
+t1358577361
+s17699
+
+N/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c
+c000000005237D48400000000000000CF
+t1379390596
+s207
+i<stdio.h>
+
+N/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/0917_ALGORITHMS.LinkFileList
+c000000005237D48400000000000000B3
+t1379390596
+s179
+
+N/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS
+t2
+s0
+
+CBuild AST from /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3887b7040ce8b741^7ff7ba040ce8b741^---0#1#0#--18"Check dependencies36"1949B61E-4B1B-423E-8786-781E3D2E09B5-
+
+CCompileC DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s401083396.737340
+e401083396.864169
+r1
+xCompileC
+xDerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o
+x/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c8200bd040ce8b741^8639dd040ce8b741^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c0000000000000000^3421"CompileC DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o 0917_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/0917_ALGORITHMS-generated-files.hmap -I/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/0917_ALGORITHMS-own-target-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/0917_ALGORITHMS-all-target-headers.hmap -iquote /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/0917_ALGORITHMS-project-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/DerivedSources/x86_64 -I/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/DerivedSources -F/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug -MMD -MT dependencies -MF /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.dia -c /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/0917_ALGORITHMS/main.c -o /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/main.o36"81502E00-CF2C-4D94-81B5-6A0A54D0D30F-
+
+CLd /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS normal x86_64
+s401083396.872456
+e401083396.971929
+r1
+xLd
+x/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS8b6cdf040ce8b741^78d0f8040ce8b741^---0#0#0#--964"Ld DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS normal x86_64    cd /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug -F/Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug -filelist /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Intermediates/0917_ALGORITHMS.build/Debug/0917_ALGORITHMS.build/Objects-normal/x86_64/0917_ALGORITHMS.LinkFileList -mmacosx-version-min=10.8 -o /Users/youngnamwoo/Desktop/Exercise/0917_ALGORITHMS/DerivedData/0917_ALGORITHMS/Build/Products/Debug/0917_ALGORITHMS36"09D08AD7-B7F2-4DD1-9C8C-2E996283E1BA-
+
