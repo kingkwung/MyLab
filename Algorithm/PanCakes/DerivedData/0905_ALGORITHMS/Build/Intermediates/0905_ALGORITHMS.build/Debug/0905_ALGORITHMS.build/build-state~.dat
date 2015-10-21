@@ -1,0 +1,75 @@
+T0905_ALGORITHMS
+v5
+r1
+cCheck dependencies
+cCompileC DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000051BB355D00000000000000AA
+t1371223389
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include/stdio.h
+c0000000050FA3ED10000000000004523
+t1358577361
+s17699
+
+N/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c
+c00000000522822D20000000000000095
+t1378362066
+s149
+i<stdio.h>
+
+N/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/0905_ALGORITHMS.LinkFileList
+c00000000522822D200000000000000B3
+t1378362066
+s179
+
+N/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS
+t2
+s0
+
+CBuild AST from /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4be5e5525ad8b741^bd52ea525ad8b741^---0#1#0#--18"Check dependencies36"742703BF-1B63-48ED-B161-553964D78804-
+
+CCompileC DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s400054866.920712
+e400054867.081693
+r1
+xCompileC
+xDerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o
+x/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c:8:16: warning: implicit declaration of function 'lengthof' is invalid in C99 [-Wimplicit-function-declaration]
+o    for(i=0; i<lengthof(panCakes); i++)
+o               ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.ccee0eb525ad8b741^c0ea14535ad8b741^-264"/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c:8:16: warning: implicit declaration of function 'lengthof' is invalid in C99 [-Wimplicit-function-declaration]    for(i=0; i<lengthof(panCakes); i++)               ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@61"Implicit declaration of function 'lengthof' is invalid in C99-400054867#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c0000000000000000^7#15#7#15#102#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c0000000000000000^3421"CompileC DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o 0905_ALGORITHMS/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/0905_ALGORITHMS-generated-files.hmap -I/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/0905_ALGORITHMS-own-target-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/0905_ALGORITHMS-all-target-headers.hmap -iquote /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/0905_ALGORITHMS-project-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/DerivedSources/x86_64 -I/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/DerivedSources -F/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug -MMD -MT dependencies -MF /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.dia -c /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/0905_ALGORITHMS/main.c -o /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/main.o36"F6EBACD3-18C3-49E0-8856-2566AAD65B0A-
+
+CLd /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS normal x86_64
+s400054867.089090
+e400054867.193246
+r0
+xLd
+x/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS
+xnormal
+xx86_64
+oUndefined symbols for architecture x86_64:
+o  "_lengthof", referenced from:
+o      _main in main.o
+old: symbol(s) not found for architecture x86_64
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Link /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMSc2fb16535ad8b741^c97731535ad8b741^-225"Undefined symbols for architecture x86_64:  "_lengthof", referenced from:      _main in main.old: symbol(s) not found for architecture x86_64clang: error: linker command failed with exit code 1 (use -v to see invocation)4(21%IDEActivityLogMessage2@29""_lengthof", referenced from:-400054867#43#32#-2#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--2@15"_main in main.o-400054867#75#22#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@43"Symbol(s) not found for architecture x86_64-400054867#97#48#-0#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-400054867#145#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--964"Ld DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS normal x86_64    cd /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug -F/Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug -filelist /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Intermediates/0905_ALGORITHMS.build/Debug/0905_ALGORITHMS.build/Objects-normal/x86_64/0905_ALGORITHMS.LinkFileList -mmacosx-version-min=10.8 -o /Users/youngnamwoo/Desktop/Exercise/0905_ALGORITHMS/DerivedData/0905_ALGORITHMS/Build/Products/Debug/0905_ALGORITHMS36"B99A41EA-8E33-48E6-8FE6-BE68F0600521-
+

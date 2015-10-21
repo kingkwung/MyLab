@@ -1,0 +1,231 @@
+T20131008_ ALGORITHMS_ContestTrip
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/20131008_\ ALGORITHMS_ContestTrip/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_\ ALGORITHMS_ContestTrip normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005130312F00000000000000AA
+t1362112815
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/SDKSettings.plist
+c0000000052411D1200000000000004B3
+t1379998994
+s1203
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052411D1200000000000001DE
+t1379998994
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+c0000000052411D16000000000000654C
+t1379998998
+s25932
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
+c0000000052411D160000000000004528
+t1379998998
+s17704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
+c0000000052411D16000000000000EDB8
+t1379998998
+s60856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
+c0000000052411D16000000000000984C
+t1379998998
+s38988
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcopyfile.dylib
+c0000000052411D160000000000004FEC
+t1379998998
+s20460
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdispatch.dylib
+c0000000052411D160000000000009F64
+t1379998998
+s40804
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdnsinfo.dylib
+c0000000052411D1600000000000031D0
+t1379998998
+s12752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdyld.dylib
+c0000000052411D1600000000000052E4
+t1379998998
+s21220
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libkeymgr.dylib
+c0000000052411D160000000000002D34
+t1379998998
+s11572
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/liblaunch.dylib
+c0000000052411D1600000000000084E8
+t1379998998
+s34024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libmacho.dylib
+c0000000052411D160000000000004FF4
+t1379998998
+s20468
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libquarantine.dylib
+c0000000052411D1600000000000047A4
+t1379998998
+s18340
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libremovefile.dylib
+c0000000052411D160000000000004364
+t1379998998
+s17252
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_blocks.dylib
+c0000000052411D160000000000002EF0
+t1379998998
+s12016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_c.dylib
+c0000000052411D160000000000046BB8
+t1379998998
+s289720
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_dnssd.dylib
+c0000000052411D1600000000000067BC
+t1379998998
+s26556
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_info.dylib
+c0000000052411D16000000000001AD9C
+t1379998998
+s109980
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_kernel.dylib
+c0000000052411D160000000000016C74
+t1379998998
+s93300
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_m.dylib
+c0000000052411D16000000000000F204
+t1379998998
+s61956
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_network.dylib
+c0000000052411D160000000000008EC8
+t1379998998
+s36552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_notify.dylib
+c0000000052411D160000000000008B14
+t1379998998
+s35604
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_sandbox.dylib
+c0000000052411D1600000000000047C0
+t1379998998
+s18368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
+c0000000052411D1600000000000044D8
+t1379998998
+s17624
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
+c0000000052411D1600000000000067AC
+t1379998998
+s26540
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
+c0000000052411D160000000000011E4C
+t1379998998
+s73292
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+c0000000052411D160000000000001750
+t1379998998
+s5968
+
+N/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/20131008_ ALGORITHMS_ContestTrip/main.c
+c0000000052551CE40000000000001326
+t1381309668
+s4902
+
+N/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_ ALGORITHMS_ContestTrip.build/Debug/20131008_ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/20131008_ ALGORITHMS_ContestTrip.LinkFileList
+c000000005253E31A00000000000000F7
+t1381229338
+s247
+
+N/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_ ALGORITHMS_ContestTrip.build/Debug/20131008_ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o
+t1381309672
+s6488
+
+N/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_ ALGORITHMS_ContestTrip
+t1381309672
+s9372
+
+CBuild AST from /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/20131008_\ ALGORITHMS_ContestTrip/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1ea5aed05405b841^990cafd05405b841^---0#1#1#--18"Check dependencies36"92511B79-DC28-4E08-803F-53EA00B0B6C2-
+
+CCompileC DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/20131008_\ ALGORITHMS_ContestTrip/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s403002472.070798
+e403002472.098766
+r1
+xCompileC
+xDerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_ ALGORITHMS_ContestTrip.build/Debug/20131008_ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o
+x/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/20131008_ ALGORITHMS_ContestTrip/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/20131008_ ALGORITHMS_ContestTrip/main.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection116"Compile /Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/20131008_ ALGORITHMS_ContestTrip/main.c290"CompileC DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o 20131008_\ ALGORITHMS_ContestTrip/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compilerf43612685405b841^0e4919685405b841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Users/youngnamwoo/Desktop/Exercise/20131008_%20ALGORITHMS_ContestTrip/20131008_%20ALGORITHMS_ContestTrip/main.c0000000000000000^4288"CompileC DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o 20131008_\ ALGORITHMS_ContestTrip/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/20131008_\ ALGORITHMS_ContestTrip-generated-files.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/20131008_\ ALGORITHMS_ContestTrip-own-target-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/20131008_\ ALGORITHMS_ContestTrip-all-target-headers.hmap -iquote /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/20131008_\ ALGORITHMS_ContestTrip-project-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/DerivedSources/x86_64 -I/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/DerivedSources -F/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug -MMD -MT dependencies -MF /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.dia -c /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/20131008_\ ALGORITHMS_ContestTrip/main.c -o /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o36"73780FB8-DC58-417B-A0CA-A4580F0CD683-
+b109B5485-3FCA-4107-A62E-3A7C90DADCDD
+
+CLd /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_\ ALGORITHMS_ContestTrip normal x86_64
+s403002472.107237
+e403002472.125999
+r1
+xLd
+x/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_ ALGORITHMS_ContestTrip
+xnormal
+xx86_64
+d/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_ ALGORITHMS_ContestTrip.build/Debug/20131008_ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/20131008_ ALGORITHMS_ContestTrip.LinkFileList
+d/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_ ALGORITHMS_ContestTrip.build/Debug/20131008_ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdnsinfo.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection172"Link /Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip/DerivedData/20131008_ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_ ALGORITHMS_ContestTrip117"Ld DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_\ ALGORITHMS_ContestTrip normal x86_6483851b685405b841^634220685405b841^---0#0#1#--1568"Ld DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_\ ALGORITHMS_ContestTrip normal x86_64    cd "/Users/youngnamwoo/Desktop/Exercise/20131008_ ALGORITHMS_ContestTrip"    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug -F/Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug -filelist /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/20131008_\ ALGORITHMS_ContestTrip.LinkFileList -mmacosx-version-min=10.8 -Xlinker -dependency_info -Xlinker /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Intermediates/20131008_\ ALGORITHMS_ContestTrip.build/Debug/20131008_\ ALGORITHMS_ContestTrip.build/Objects-normal/x86_64/20131008_\ ALGORITHMS_ContestTrip_dependency_info.dat -o /Users/youngnamwoo/Desktop/Exercise/20131008_\ ALGORITHMS_ContestTrip/DerivedData/20131008_\ ALGORITHMS_ContestTrip/Build/Products/Debug/20131008_\ ALGORITHMS_ContestTrip36"C13B8B09-59E1-436E-B8FD-C27DAFE99461-
+b109B5485-3FCA-4107-A62E-3A7C90DADCDD
+

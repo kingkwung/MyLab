@@ -1,0 +1,107 @@
+T20131107_ALGO_CLEANCAMPUS_javir
+v6
+r1
+cCheck dependencies
+cCompileC DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c000000005243E79F00000000000000AA
+t1380181919
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c000000005268E3FD000000000000044C
+t1382605821
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005268E3FD00000000000001DB
+t1382605821
+s475
+
+N/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c
+c00000000527AF13B0000000000000277
+t1383788859
+s631
+
+N/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/20131107_ALGO_CLEANCAMPUS_javir.LinkFileList
+c00000000527AF13D00000000000000F3
+t1383788861
+s243
+
+N/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o
+t1383788861
+s3728
+
+N/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir
+t2
+s0
+
+CBuild AST from /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8e9302bd282bb841^4ab305bd282bb841^---0#1#1#--18"Check dependencies36"31957A60-00A4-45B4-A301-EBEF81883B16-
+
+CCompileC DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s405481661.026940
+e405481661.162504
+r1
+xCompileC
+xDerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o
+x/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c282"CompileC DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o 20131107_ALGO_CLEANCAMPUS_javir/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler272e07bd282bb841^569929bd282bb841^---0#0#1#-19%DVTDocumentLocation2@113"file:///Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c0000000000000000^4185"CompileC DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o 20131107_ALGO_CLEANCAMPUS_javir/main.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.9 -g -Wno-sign-conversion -iquote /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/20131107_ALGO_CLEANCAMPUS_javir-generated-files.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/20131107_ALGO_CLEANCAMPUS_javir-own-target-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/20131107_ALGO_CLEANCAMPUS_javir-all-target-headers.hmap -iquote /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/20131107_ALGO_CLEANCAMPUS_javir-project-headers.hmap -I/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/DerivedSources/x86_64 -I/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/DerivedSources -F/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug -MMD -MT dependencies -MF /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.dia -c /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/20131107_ALGO_CLEANCAMPUS_javir/main.c -o /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o36"883FF071-F34A-45E1-A049-AF129B4C01A3-
+bFC2B23C1-9C29-49D3-8F63-6BD1F51D3067
+
+CLd /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir normal x86_64
+s405481661.163194
+e405481661.221570
+r1
+xLd
+x/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir
+xnormal
+xx86_64
+d/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/20131107_ALGO_CLEANCAMPUS_javir.LinkFileList
+d/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection169"Link /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir113"Ld DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir normal x86_64edd729bd282bb841^78b938bd282bb841^---0#0#1#--1527"Ld DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir normal x86_64    cd /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir    setenv MACOSX_DEPLOYMENT_TARGET 10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug -F/Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug -filelist /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/20131107_ALGO_CLEANCAMPUS_javir.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Intermediates/20131107_ALGO_CLEANCAMPUS_javir.build/Debug/20131107_ALGO_CLEANCAMPUS_javir.build/Objects-normal/x86_64/20131107_ALGO_CLEANCAMPUS_javir_dependency_info.dat -o /Users/youngnamwoo/Desktop/Exercise/20131107_ALGO_CLEANCAMPUS_javir/DerivedData/20131107_ALGO_CLEANCAMPUS_javir/Build/Products/Debug/20131107_ALGO_CLEANCAMPUS_javir36"2768F721-0A8E-4FFF-A0F4-2341F4D99AC4-
+bFC2B23C1-9C29-49D3-8F63-6BD1F51D3067
+
